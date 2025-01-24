@@ -12,17 +12,14 @@
 - Radeon Vega 7
 - 8 GB of RAM (2 GB are dedicated to iGPU)
 - Realtek WiFi + Bluetooth RTL8852BE (Unsupported, soon-to-be-replaced with a BCM94352Z)
- > Included fixes for old Broadcom cards, so just use OpenCore Legacy Patcher and you're good to go if you use one of those.
- > Also included the updated HoRNDIS kernel extension for USB Tethering with Android.
+ > Included fixes for old Broadcom cards, so just use OpenCore Legacy Patcher and you're good to go if you use one of those. Also included the updated HoRNDIS kernel extension for USB Tethering with Android.
 - 256 GB M.2 KIOXIA SSD
 - 1080p TN 15.6" Display
  > Drivers work fine thanks to NootedRed, except some graphical glitches in AutoCAD and no Chromium/Brave/React/Whatever-other-project-based-on-Blink-and-V8 for sure.
 - 42Wh Battery
- > Lasts about 6-7 hours on Windows/Linux, no estimate for macOS as USB Tethering is extremely draining
- > The number might not be accurate, but doesn't really care
+ > Lasts about 6-7 hours on Windows/Linux, no estimate for macOS as USB Tethering is extremely draining. The watthour number might not be accurate, but doesn't really care
 - Left side of ports: 1 AC Port, 1 USB-A SuperSpeed port, 1 USB-C SuperSpeed port, 3.5 mm Jack
- > USB-C port only supports being, well, a USB-C port and doesn't charge nor supports displays.
- > 3.5 mm Jack should work but didn't bother testing.
+ > USB-C port only supports being, well, a USB-C port and doesn't charge nor supports displays. 3.5 mm Jack should work but didn't bother testing.
 - Right side of ports: 1 USB-A 2.0 port, 1 Realtek SD Card reader, Novo Button
  > The SD Card reader should work fine, added kernel extension for it, didn't test yet.
 - Realtek ALC257 and AMD Microphone
